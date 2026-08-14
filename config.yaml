@@ -16,7 +16,7 @@ instances:
 syncs:
   - name: Kemeow0815/kemiaoshuoshuo     # state key，稳定唯一；留空则默认 "<instance>/<channel>"
     channel: kemiaoshuoshuo         # 公开频道 slug，抓取 https://t.me/s/TestFlightCN
-    instance: myblog              # 指向上面 instances 里的键
+    instance: Kemeow0815              # 指向上面 instances 里的键
     tag: MemosCN             # 来源标签；keep>0 时必填，且同实例内各 retention 任务的 tag 必须唯一
     max_per_run: 10               # 每次运行最多发布几条（按最旧优先，积压跨轮排空）
     with_source_link: true        # 正文尾部追加 “🔗 https://t.me/<channel>/<id>”
